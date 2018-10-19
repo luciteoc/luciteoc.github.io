@@ -5,8 +5,8 @@ function EC2()
 {
 	this.read_data = function(){
 		this.a = document.getElementById("id_a").value;
-		this.b = document.getElementById("id_a").value;
-		this.c = document.getElementById("id_a").value;
+		this.b = document.getElementById("id_b").value;
+		this.c = document.getElementById("id_c").value;
 	};
 	this.solve2 = function(){
 		var delta = this.b * this.b - 4 * this.a * this.c;

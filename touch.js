@@ -4,7 +4,7 @@ document.getElementById("id_canvas").addEventListener("touchstart", onTouchStart
 function onTouchStart(e){
     var t = e.changedTouches;
     var canvas = document.getElementById("id_canvas");
-    var rect = getBoundingClientRect();
+    var rect = canvas.getBoundingClientRect();
     var context = canvas.getContext("2d");
 
     for (var i = 0; i < t.length; i++){
